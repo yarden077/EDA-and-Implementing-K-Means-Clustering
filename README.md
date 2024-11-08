@@ -1,4 +1,4 @@
-## EDA-and-Implementing-K-Means-Clustering
+## EDA and Implementing K Means Clustering
 This project provides a modular framework for data analysis and clustering using dataset containing information about bike rentals in London.
 It is structured in three main components:
 
