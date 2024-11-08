@@ -35,7 +35,7 @@ def transform_data(df, features):
     :param features: list of 2 features from the dataframe.
     :return: transformed data as numpy array of shape (n, 2)
     """
-    df = load_data('/Users/yardennahum/Desktop/HW2/london_sample_500.csv')
+    df = load_data('london_sample_500.csv')
     number_of_rows = df.shape[0]
     transformed_data = df[features].to_numpy()
     transformed_data = sum_scaling(transformed_data, number_of_rows)
