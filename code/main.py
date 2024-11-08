@@ -5,7 +5,7 @@ import sys
 
 
 def main(argv):
-    path = '/Users/yardennahum/Desktop/HW2/london_sample_500.csv'
+    path = 'london_sample_500.csv'
     df = load_data(path)
     df = add_new_columns(df)
     data_analysis(df)
@@ -14,7 +14,7 @@ def main(argv):
     print()
     print("Part B:")
     k = [2, 3, 5]
-    path = '/Users/yardennahum/Desktop/HW2/plot{}.png'
+    path = '/Users/Desktop/plot{}.png'
     for i in k:
         print(f"k = {i}")
         labels, centroids = kmeans(df, i)
